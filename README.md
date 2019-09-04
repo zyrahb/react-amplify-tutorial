@@ -1,12 +1,26 @@
 # React Amplify Tutorial
+Going through this tutorial
+
+https://aws-amplify.github.io/docs/js/react
+
+Static website with SSL cert (https) using Amplify.
+
+Example here: 
+d15hkgt6yogxwn.cloudfront.net
+
+http://d15hkgt6yogxwn.cloudfront.net will direct you to https 
+
+Make sure to 'Block all public access' for the s3 bucket the following will NOT work only the cloudfront  
+http://reactamplifytutorial-20190904092945-hostingbucket-master.s3-ap-southeast-2.amazonaws.com/index.html
+
+## Setup
 
 ```
 yarn create react-app react-amplify-tutorial
 cd react-amplify-tutorial 
 amplify init
 
-? Enter a name for the project reactamplifytutorial
-? Enter a name for the environment master
+dfasdfa? Enter a name for the environment master
 ? Choose your default editor: IntelliJ IDEA
 ? Choose the type of app that you're building javascript
 Please tell us about your project
@@ -34,7 +48,7 @@ amplify publish
 ```
 
 
-## >> following came with react init
+## following came with react boiler plate >>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
