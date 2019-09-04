@@ -1,3 +1,41 @@
+# React Amplify Tutorial
+
+```
+yarn create react-app react-amplify-tutorial
+cd react-amplify-tutorial 
+amplify init
+
+? Enter a name for the project reactamplifytutorial
+? Enter a name for the environment master
+? Choose your default editor: IntelliJ IDEA
+? Choose the type of app that you're building javascript
+Please tell us about your project
+? What javascript framework are you using react
+? Source Directory Path:  src
+? Distribution Directory Path: build
+? Build Command:  npm run-script build
+? Start Command: npm run-script start
+Using default provider  awscloudformation
+
+For more information on AWS Profiles, see:
+https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html
+
+? Do you want to use an AWS profile? Yes
+? Please choose the profile you want to use default
+
+amplify add hosting
+
+? Select the environment setup: PROD (S3 with CloudFront using HTTPS)
+? hosting bucket name reactamplifytutorial-XXXX-hostingbucket
+? index doc for the website index.html
+? error doc for the website index.html
+
+amplify publish
+```
+
+
+## >> following came with react init
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

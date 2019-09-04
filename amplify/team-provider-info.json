@@ -1,0 +1,14 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "reactamplifytutorial-master-20190904092723-authRole",
+            "UnauthRoleArn": "arn:aws:iam::288547829232:role/reactamplifytutorial-master-20190904092723-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::288547829232:role/reactamplifytutorial-master-20190904092723-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "reactamplifytutorial-master-20190904092723-deployment",
+            "UnauthRoleName": "reactamplifytutorial-master-20190904092723-unauthRole",
+            "StackName": "reactamplifytutorial-master-20190904092723",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:288547829232:stack/reactamplifytutorial-master-20190904092723/668dbea0-cea2-11e9-9f09-02afb887c468"
+        }
+    }
+}
